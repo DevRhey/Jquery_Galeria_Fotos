@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button">Nova imagen +</button>
+    </header>
+    <form action="">
+        <h2>Inserir nova imagen</h2>
+        <input type="url" id="endereco-imagen-nova" required placeholder="URL da imagen" />
+        <button class="enviar" type="submit">Adcionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+
+    <ul>
+        <li>
+            <img src="/images_M9/images/foto1.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagen">
+                <a href="/images_M9/images/foto1.jpg" title="Ver imagen em tamanho real" target="_blank">
+                    Ver imagen em tamanh real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="/images_M9/images/foto2.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagen">
+                <a href="/images_M9/images/foto2.jpg" title="Ver imagen em tamanho real" target="_blank">
+                    Ver imagen em tamanh real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="/images_M9/images/foto3.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagen">
+                <a href="/images_M9/images/foto3.jpg" title="Ver imagen em tamanho real" target="_blank">
+                    Ver imagen em tamanh real
+                </a>
+            </div>
+        </li>
+    </ul>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
